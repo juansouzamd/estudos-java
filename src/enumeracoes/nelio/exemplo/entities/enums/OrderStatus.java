@@ -1,4 +1,4 @@
-package enumeracoes.nelio.entities.enums;
+package enumeracoes.nelio.exemplo.entities.enums;
 
 public enum OrderStatus {
 

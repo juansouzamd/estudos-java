@@ -1,6 +1,6 @@
-package enumeracoes.nelio.entities;
+package enumeracoes.nelio.exemplo.entities;
 
-import enumeracoes.nelio.entities.enums.OrderStatus;
+import enumeracoes.nelio.exemplo.entities.enums.OrderStatus;
 
 import java.util.Date;
 
