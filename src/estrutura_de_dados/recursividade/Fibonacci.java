@@ -1,4 +1,4 @@
-package recursividade;
+package estrutura_de_dados.recursividade;
 
 import java.util.Scanner;
 
