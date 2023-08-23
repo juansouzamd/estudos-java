@@ -29,6 +29,16 @@ public class VerificandoSenhas {
 
         // TODO: Verifique o comprimento mínimo e critérios de validação
 
+        boolean comprimentoSenha = senha.length() >= 8;
+
+        if(!comprimentoSenha){
+            x = "Sua senha e muito curta. Recomenda-se no minimo 8 caracteres.";
+        } else if (temLetraMinuscula && temNumero && temCaractereEspecial){
+            x = "Sua senha atende aos requisitos de seguranca. Parabens!";
+        } else {
+            x = "Sua senha nao atende aos requisitos de seguranca.";
+        }
+
         return x;
 
     }
