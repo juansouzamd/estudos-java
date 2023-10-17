@@ -1,4 +1,4 @@
-package Senac.estruturaDeDados;
+package Senac.estruturaDeDados.vetor;
 
 public class Vetor {
     private String[] elementos;
